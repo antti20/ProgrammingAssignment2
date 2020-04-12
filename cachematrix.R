@@ -1,5 +1,11 @@
 ## Put comments here that give an overall description of what your
 ## functions do
+# The makeCacheMatrix creates a list of functions relating to the
+# matrix that it takes as an input and its inverse. The cacheSolve
+# function solves the inverse and ties it to the list created in
+# the makeCacheMatrix function. The cacheSolve function also checks
+# if the inverse has already been solved for and if so it takes it 
+# from the list and does not redo the calculation.
 
 ## Write a short comment describing this function
 # This function creates a list of functions related to the matrix
